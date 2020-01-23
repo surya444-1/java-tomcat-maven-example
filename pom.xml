@@ -47,10 +47,10 @@
     <!-- nexus server details for release -->
     <url>http://35.229.58.120:8081/repository/maven-releases/</url>
   </repository>
-  <snapshotRepository>
+  <repository>
     <id>snapshots</id>
     <!-- nexus server details for snapshots-->
     <url>http://35.229.58.120:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
+  </repository>
 </distributionManagement>
 </project>
