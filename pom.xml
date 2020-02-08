@@ -54,5 +54,5 @@
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://35.231.125.240:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
-</distributionManagement
+  </distributionManagement>
 </project>
