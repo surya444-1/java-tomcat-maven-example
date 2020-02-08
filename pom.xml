@@ -17,7 +17,7 @@
   </dependencies>
   
   <build>
-    <finalName>java-tomcat-maven-example</finalName>
+    <!--finalName>java-tomcat-maven-example</finalName-->
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -47,12 +47,12 @@
   <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://localhost:8081/repository/maven-snapshots/</url>
+    <url>http://35.231.125.240:8081/repository/maven-snapshots/</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
     <!-- CHANGE HERE by your team nexus server -->
-    <url>http://localhost:8081/repository/maven-snapshots/</url>
+    <url>http://35.231.125.240:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement
 </project>
