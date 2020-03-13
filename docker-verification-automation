@@ -1,0 +1,19 @@
+docker stop containerame
+docker rm containername
+docker build -t imagename .
+docker run --name containername -d -p 7777:8080 imagename
+
+
+parameter
+============
+para:BRANCH_NAME
+*/${BRANCH_NAME}
+
+verification
+=============
+status=$(curl -s --head -w %{http_code} http://localhost:7777/java-tomcat-maven-example/ -o /dev/null)
+echo $status
+  if  [$status eq 200]; then
+      echo "OK"
+  
+  fi
