@@ -1,5 +1,6 @@
 node(){
-checkout scm    
+         ansiColor('xterm') {
+          checkout scm    
          
          stage('compile') {         
          echo "compile"
@@ -8,14 +9,15 @@ checkout scm
          echo "test"
         }
          
-stage('Maven Build') {         
+         stage('Maven Build') {         
         
         }
          stage('deploy to nexus') {         
          echo "deploy"
         }
          
-stage('Docker Build') {         
+       stage('Docker Build') {         
        echo "Docker build"
         }
+         }
  }
